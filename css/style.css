@@ -1,0 +1,49 @@
+body{
+  margin-top: 105px
+}
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: .9;
+  background-color: #fff
+}
+.nav-item{
+  font-size: 1.4rem;
+  padding-right: 20px
+}
+#showCase{
+  position: relative;
+  background: url('../imgaes/mountains.jpg');
+  min-height: 600px
+}
+.primary-overlay{
+  background:rgba(50,146,166,.8);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top : 0;
+  left: 0;
+}
+
+.info-header{
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+#authors .card{
+  margin-top: 20px
+}
+#authors .card:hover{
+  background-color: #3292a6;
+  color : #fff;
+}
+#authors .card:hover .fa{
+  color: #fff
+}
+#authors img{
+  margin-top: -50px
+}
+#authors .fa {
+  color:  #3292a6;
+  font-size: 25px
+}
